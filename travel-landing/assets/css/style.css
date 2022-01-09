@@ -82,10 +82,62 @@
 
     /* Intro styles start */
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url(../img/background.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+    
 }
+.Intro_title {
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.Intro_subtitle {
+    max-width: 546px;
+    color:white;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+.search-form_info {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.search-form_field {
+    width: 297px;
+    background: transparent url(/travel-landing/assets/img/svg/circle-icon.svg) no-repeat left 6px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+.search-form_field::placeholder {
+    color:white;
+}
+.search-form_submit {
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    background: #1B7DFF;
+    border: 0;
 
+}
+.search-form_submit:hover, .search-form_submit:focus, .search-form_submit:active {
+    background: #0e4389;
+
+}
     /* Intro styles end */
