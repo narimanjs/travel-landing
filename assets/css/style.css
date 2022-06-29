@@ -389,8 +389,8 @@ textarea {
     font-style: normal;
     font-weight: 900;
     src: local('Lato Black'), local('Lato-Black'),
-         url('/assets/fonts/lato-v15-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/assets/fonts/lato-v15-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('./assets/fonts/lato-v15-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./assets/fonts/lato-v15-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 html{
     box-sizing: border-box;
@@ -491,7 +491,7 @@ img{
 
 .intro{
     min-height: 100vh;
-    background: url(/assets/img/background.jpg) no-repeat center;
+    background: url(./assets/img/background.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
     padding-bottom: 223px;
@@ -521,7 +521,7 @@ img{
 
 .search-form__field{
     width: 297px;
-    background: transparent url(/assets/img/svg/circle-icon.svg) no-repeat left 6px;
+    background: transparent url(./assets/img/svg/circle-icon.svg) no-repeat left 6px;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid #BFC0C5;
@@ -624,7 +624,7 @@ img{
     line-height: 24px;
     color: #006DFE;
     text-decoration: none;
-    background: url(/assets/img/svg/arrow-right-icon.svg) no-repeat 95% center;
+    background: url(./assets/img/svg/arrow-right-icon.svg) no-repeat 95% center;
     transition: .2s all;
 }
 
@@ -658,7 +658,7 @@ img{
     color: #006DFE;
     text-decoration: none;
     padding-right: 59px;
-    background: url(/assets/img/svg/arrow-right-icon.svg) no-repeat right center;
+    background: url(./assets/img/svg/arrow-right-icon.svg) no-repeat right center;
 }
 
 .places__view-all:hover, .places__view-all:focus{
@@ -765,7 +765,7 @@ img{
     color: #006DFE;
     text-decoration: none;
     padding-right: 59px;
-    background: url(/assets/img/svg/arrow-right-icon.svg) no-repeat right center;
+    background: url(./assets/img/svg/arrow-right-icon.svg) no-repeat right center;
 
 }
 .tour__link:hover, .tour__link:focus{
@@ -816,7 +816,7 @@ img{
     line-height: 24px;
     color: #fff;
     padding-right: 20px;
-    background: url(/assets/img/svg/heart-icon.svg) no-repeat right;
+    background: url(./assets/img/svg/heart-icon.svg) no-repeat right;
     margin-right: 14px;
 } 
 .top__card-comments {
@@ -825,7 +825,7 @@ img{
     line-height: 24px;
     color: #fff;
     padding-right: 23px;
-    background: url(/assets/img/svg/comment-icon.svg) no-repeat right;
+    background: url(./assets/img/svg/comment-icon.svg) no-repeat right;
 
 } 
 .top__card-desc {
