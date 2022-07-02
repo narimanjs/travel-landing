@@ -497,14 +497,14 @@ img{
     height: 2px;
     background-color: #fff;
     position: absolute;
-    transform: translateY(-50%);
     left: 0;
 }
 .burger__line_first {
     top: 0;
 }
 .burger__line_second {
-    top: 50%;
+    top: 50%;    
+    transform: translateY(-50%);
 }
 .burger__line_third {
     bottom: 0;
@@ -954,8 +954,8 @@ img{
         transform: translateX(100%);
         transition: .2s all linear;
     }
-    .header__nav_active {
-        transform: translateY(0);
+    .header__nav_active{
+        transform: translateX(0);        
     }
     .header__item {
         width: 100%;
